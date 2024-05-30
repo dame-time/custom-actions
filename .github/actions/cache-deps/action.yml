@@ -9,7 +9,6 @@ inputs:
 outputs:
   cache-hit:
     description: 'Whether the cache was hit'
-    type: 'boolean'
     value: ${{ steps.install.outputs.cache }}
 runs:
   using: 'composite'
